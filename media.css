@@ -1,0 +1,197 @@
+@media screen and (max-width:776px) {
+    .features .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .email-signin button{
+        font-size: 15px;
+        width: 100%;
+        padding: 10px 25px;
+    }
+
+    .faq .email-signin button{
+        padding: 12px 15px;
+        font-size: 21px;
+    }
+ 
+    .footer-container {
+        flex-direction: column;
+        gap: 45px;
+        text-align: start;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .link-column {
+        align-items: stretch;
+    }
+
+
+
+   
+
+    .features-1 .row{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .features .row {
+        padding: 10px 0;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .logo{
+        width: 40%;
+    }
+    nav button{
+      padding: 5px 10px;
+
+    }
+
+    nav .btn1{
+        padding: 4px 8px;
+
+    }
+
+    .header-container{
+        position: unset;
+        transform: none;
+        padding-top: 80px;
+    }
+    .header-container h1{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+    .email-signin input{
+        font-size: 18px;
+    }
+    .email-signin button{
+        font-size: 18px;
+        padding: 10px 15px;
+
+    }
+    .text-col, .img-col{
+       flex-basis: 100%;
+
+    }
+    .features h2{
+        font-size: 30px;
+
+    }
+    .features p{
+        font-size: 15px;
+        ;
+    }
+    .features-1 h2{
+        font-size: 30px;
+
+    }
+    .features-1 p{
+        font-size: 15px;
+    }
+    .features .row {
+        padding: 10px 0;
+    }
+
+    .features-1 .row{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .faq h2{
+        font-size: 20px;
+
+    }
+
+    .accordian{
+        font-size:14px;
+        
+    }
+
+    .accordian li label{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .accordian .content{
+        font-size: 14px;
+    }
+    label::after{
+        font-size: 22px;
+    }
+   /* .col a{
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+    }*/
+
+
+   
+   
+}
+@media only screen and (max-width:479px) {
+    .features-1 .row{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+   .faq .email-signin button {
+    font-size: 9px;
+    text-align: inherit;    
+   }
+
+
+  .email-signin {
+    background: transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 5px;
+
+}
+
+.email-signin input {
+    flex: 1;
+    border: 1px solid white;
+    outline: #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: transparent;
+    padding-block: 10px;
+    color: #ffffff;
+    text-align: initial;
+    border-radius: 4px;
+    font-size: 10px;
+    padding-left: 8px;
+
+}
+
+.email-signin button {
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    
+    cursor: pointer;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*.footer-container a{
+  font-size: 9px;
+  column-gap: 15px;
+  
+}*/
+}
